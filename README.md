@@ -37,3 +37,11 @@ below.
    for your operating system.
 2. Install the required Python packages, e.g., by running `pip install -r
    requirements.txt`
+   
+## TTS Voice Wizard Instructions
+- Follow the above installation instructions
+- To use glados TTS for TTS Voice Wizard run this
+```console
+python3 engine-TTSVoiceWizard.py
+```
+
