@@ -81,7 +81,7 @@ if __name__ == "__main__":
 	
 	app = Flask(__name__)
 
-	@app.route('/synthesize/', defaults={'text': ''})
+	@app.route('/synthesize/', defaults={'text': 'testingHere'})
 	@app.route('/synthesize/<path:text>')
 	def synthesize(text):
 		if(text == ''): return 'No input'
