@@ -31,12 +31,19 @@ The initial, regular Tacotron model was trained first on LJSpeech, and then on a
 If you want to install the TTS Engine on your machine, please follow the steps
 below.
 
-1. Install the [`espeak`](https://github.com/espeak-ng/espeak-ng) synthesizer
+1. Install [`python 3.7.9`](https://www.python.org/downloads/release/python-379/).
+   If you have to deal with multiple versions of python then you may find [`pyenv-win`](https://pypi.org/project/pyenv-win/) extremely helpful
+2. Install the [`espeak`](https://github.com/espeak-ng/espeak-ng) synthesizer
    according to the [installation
    instructions](https://github.com/espeak-ng/espeak-ng/blob/master/docs/guide.md)
    for your operating system.
-2. Install the required Python packages, e.g., by running `pip install -r
+3. Install the required Python packages, e.g., by running `pip install -r
    requirements.txt`
+4. Set the required environment variables by running
+```console
+setx PHONEMIZER_ESPEAK_LIBRARY 'c:/Program Files/eSpeak NG/libespeak-ng.dll'
+setx PHONEMIZER_ESPEAK_PATH 'c:/Program Files/eSpeak NG/espeak-ng.exe'
+```
    
 ## TTS Voice Wizard Instructions
 - Follow the above installation instructions
@@ -44,4 +51,3 @@ below.
 ```console
 python3 engine-TTSVoiceWizard.py
 ```
-
