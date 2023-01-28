@@ -37,6 +37,11 @@ below.
    for your operating system.
 2. Install the required Python packages, e.g., by running `pip install -r
    requirements.txt`
+3. Set the required environment variables by running
+```console
+setx PHONEMIZER_ESPEAK_LIBRARY 'c:/Program Files/eSpeak NG/libespeak-ng.dll'
+setx PHONEMIZER_ESPEAK_PATH 'c:/Program Files/eSpeak NG/eSpeakNG/espeak-ng.exe'
+```
    
 ## TTS Voice Wizard Instructions
 - Follow the above installation instructions
@@ -44,4 +49,3 @@ below.
 ```console
 python3 engine-TTSVoiceWizard.py
 ```
-
