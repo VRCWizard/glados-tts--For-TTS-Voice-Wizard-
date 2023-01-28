@@ -42,7 +42,7 @@ below.
 4. Set the required environment variables by running
 ```console
 setx PHONEMIZER_ESPEAK_LIBRARY 'c:/Program Files/eSpeak NG/libespeak-ng.dll'
-setx PHONEMIZER_ESPEAK_PATH 'c:/Program Files/eSpeak NG/eSpeakNG/espeak-ng.exe'
+setx PHONEMIZER_ESPEAK_PATH 'c:/Program Files/eSpeak NG/espeak-ng.exe'
 ```
    
 ## TTS Voice Wizard Instructions
