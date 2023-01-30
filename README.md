@@ -3,12 +3,12 @@ Neural network based TTS Engine.
 
 If you want to just play around with the TTS, this works as stand-alone.
 ```console
-python3 glados-tts/glados.py
+python glados-tts/glados.py
 ```
 
 the TTS Engine can also be used remotely on a machine more powerful then the Pi to process in house TTS: (executed from glados-tts directory
 ```console
-python3 engine-remote.py
+python engine-remote.py
 ```
 
 Default port is 8124
@@ -37,19 +37,49 @@ below.
    according to the [installation
    instructions](https://github.com/espeak-ng/espeak-ng/blob/master/docs/guide.md)
    for your operating system.
-3. Install the required Python packages, e.g., by running `pip install -r
-   requirements.txt`
-4. Set the required environment variables by running
+3. Using console (all commands will be typed into console) 
+    - open "terminal" or "command prompt"
+![image](https://user-images.githubusercontent.com/101527472/215557319-1b7f04e0-eabf-4830-b305-2c31922e037f.png)
+
+    - "cd" into the correct folder with engine-TTSVoiceWizard.py in it, here is an example:
+
 ```console
-setx PHONEMIZER_ESPEAK_LIBRARY 'c:/Program Files/eSpeak NG/libespeak-ng.dll'
-setx PHONEMIZER_ESPEAK_PATH 'c:/Program Files/eSpeak NG/espeak-ng.exe'
+cd C:\Users\<NAME>\Downloads\glados-tts-voice-wizard-main\glados-tts-voice-wizard-main
 ```
+4. type this command into console to see if the correct version of python is installed and working correctly.
+```console
+python --version
+```
+- if you get an error that mentions "app execution aliases", simily turn them off for python in the windows settings
+    
+![image](https://user-images.githubusercontent.com/101527472/215560918-e855b87a-0a7f-4d96-a9ac-a261e6d8acae.png)
+
+5. Install the required Python packages, e.g., by running `pip install -r
+   requirements.txt`
+    - if it says that pip is not a recognized command use  `python -m pip install -r requirements.txt` instead
+    - if it still says pip is not recognized then one of the solutions here is guarrenteed to help (if you ask for help with this issue I will literally tell you a solution verbatium from this page) https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command
+  
+5. Set the required environment variables by running
+```console
+setx PHONEMIZER_ESPEAK_LIBRARY 'C:\Program Files\eSpeak NG\libespeak-ng.dll'
+setx PHONEMIZER_ESPEAK_PATH 'C:\Program Files\eSpeak NG\espeak-ng.exe'
+```
+If those commands don't work you may have to add the enviornment varibales manually.
+
+
    
 ## TTS Voice Wizard Instructions
 - Follow the above installation instructions
 - To use glados TTS for TTS Voice Wizard run this (it will need to be running in the background for Glados TTS to work in TTS Voice Wizard)
-- open terminal or command prompt
-- "cd" into the correct folder then type
+- open console
+- "cd" into the correct folder with engine-TTSVoiceWizard.py in it, here is an example:
+
 ```console
-python3 engine-TTSVoiceWizard.py
+cd C:\Users\<NAME>\Downloads\glados-tts-voice-wizard-main\glados-tts-voice-wizard-main
 ```
+- then type
+```console
+python engine-TTSVoiceWizard.py
+```
+Note you will have to have this script running background whenever you wanna use the glados voice. 
+**Becareful sharing screen for help, when the script is successfully run it will show your ip address with the port being used**
