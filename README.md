@@ -47,7 +47,7 @@ setx PHONEMIZER_ESPEAK_PATH 'c:/Program Files/eSpeak NG/espeak-ng.exe'
    
 ## TTS Voice Wizard Instructions
 - Follow the above installation instructions
-- To use glados TTS for TTS Voice Wizard run this
+- To use glados TTS for TTS Voice Wizard run this (it will need to be running in the background for Glados TTS to work in TTS Voice Wizard)
 ```console
 python3 engine-TTSVoiceWizard.py
 ```
