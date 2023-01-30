@@ -51,3 +51,7 @@ setx PHONEMIZER_ESPEAK_PATH 'c:/Program Files/eSpeak NG/espeak-ng.exe'
 ```console
 python3 engine-TTSVoiceWizard.py
 ```
+or if that doesn't work try
+```console
+python engine-TTSVoiceWizard.py
+```
