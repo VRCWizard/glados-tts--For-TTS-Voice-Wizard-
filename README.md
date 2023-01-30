@@ -41,7 +41,7 @@ below.
     - open "terminal" or "command prompt"
 ![image](https://user-images.githubusercontent.com/101527472/215557319-1b7f04e0-eabf-4830-b305-2c31922e037f.png)
 
-    - "cd" into the correct folder with engine-TTSVoiceWizard.py in it, here is an example:
+    - Change Directory or "cd" into the correct folder with engine-TTSVoiceWizard.py in it, here is an example:
 
 ```console
 cd C:\Users\<NAME>\Downloads\glados-tts-voice-wizard-main\glados-tts-voice-wizard-main
@@ -64,7 +64,8 @@ python --version
 setx PHONEMIZER_ESPEAK_LIBRARY 'C:\Program Files\eSpeak NG\libespeak-ng.dll'
 setx PHONEMIZER_ESPEAK_PATH 'C:\Program Files\eSpeak NG\espeak-ng.exe'
 ```
-If those commands don't work you may have to add the enviornment varibales manually.
+
+- If those commands don't work you may have to add the enviornment varibales manually.
 
 
    
@@ -72,12 +73,12 @@ If those commands don't work you may have to add the enviornment varibales manua
 - Follow the above installation instructions
 - To use glados TTS for TTS Voice Wizard run this (it will need to be running in the background for Glados TTS to work in TTS Voice Wizard)
 - open console
-- "cd" into the correct folder with engine-TTSVoiceWizard.py in it, here is an example:
+- Change Directory or "cd" into the correct folder with engine-TTSVoiceWizard.py in it, here is an example:
 
 ```console
 cd C:\Users\<NAME>\Downloads\glados-tts-voice-wizard-main\glados-tts-voice-wizard-main
 ```
-- then type
+- Run the python script
 ```console
 python engine-TTSVoiceWizard.py
 ```
