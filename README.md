@@ -66,6 +66,10 @@ setx PHONEMIZER_ESPEAK_PATH 'C:\Program Files\eSpeak NG\espeak-ng.exe'
 ```
 
 - If those commands don't work you may have to add the environment variables manually.
+- You can add them to system variables like this picture. If you are unsure how to do this... google "how to set environment variables"
+
+![image](https://user-images.githubusercontent.com/101527472/216216742-45f96ff7-d9ad-4c32-8063-6ae93fc11ede.png)
+
 
 
    
