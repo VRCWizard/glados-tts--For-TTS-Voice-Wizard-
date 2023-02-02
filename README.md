@@ -65,7 +65,7 @@ setx PHONEMIZER_ESPEAK_LIBRARY 'C:\Program Files\eSpeak NG\libespeak-ng.dll'
 setx PHONEMIZER_ESPEAK_PATH 'C:\Program Files\eSpeak NG\espeak-ng.exe'
 ```
 
-- If those commands don't work you may have to add the enviornment varibales manually.
+- If those commands don't work you may have to add the environment variables manually.
 
 
    
