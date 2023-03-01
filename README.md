@@ -33,6 +33,9 @@ below.
 
 1. Install [`python 3.7.9`](https://www.python.org/downloads/release/python-379/).
    If you have to deal with multiple versions of python then you may find [`pyenv-win`](https://pypi.org/project/pyenv-win/) extremely helpful
+   
+      - [pyenv quickstart guide](https://github.com/pyenv-win/pyenv-win#quick-start)
+   
 2. Install the [`espeak`](https://github.com/espeak-ng/espeak-ng) synthesizer
    according to the [installation
    instructions](https://github.com/espeak-ng/espeak-ng/blob/master/docs/guide.md)
