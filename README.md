@@ -59,7 +59,7 @@ python --version
 ```
 - if you get an error that mentions "app execution aliases", simily turn them off for python in the windows settings
     
-![image](https://user-images.githubusercontent.com/101527472/215560918-e855b87a-0a7f-4d96-a9ac-a261e6d8acae.png)
+![image](https://user-images.githubusercontent.com/101527472/225462429-592cfb3b-ee28-4355-9d71-84466aa36a09.png)
 
 5. Install the required Python packages, e.g., by running `pip install -r
    requirements.txt`
