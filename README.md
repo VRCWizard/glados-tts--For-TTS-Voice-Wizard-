@@ -35,6 +35,9 @@ below.
    If you have to deal with multiple versions of python then you may find [`pyenv-win`](https://pypi.org/project/pyenv-win/) extremely helpful
    
       - [pyenv quickstart guide](https://github.com/pyenv-win/pyenv-win#quick-start)
+      
+     ![image](https://user-images.githubusercontent.com/101527472/225459133-9075a959-1d7b-4c77-a017-164fa242acbd.png)
+
    
 2. Install the [`espeak`](https://github.com/espeak-ng/espeak-ng) synthesizer
    according to the [installation
