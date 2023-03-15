@@ -37,6 +37,7 @@ below.
       - [pyenv quickstart guide](https://github.com/pyenv-win/pyenv-win#quick-start)
       
      ![image](https://user-images.githubusercontent.com/101527472/225459133-9075a959-1d7b-4c77-a017-164fa242acbd.png)
+     (pytorch will not install correctly if using 32 bit version)
 
    
 2. Install the [`espeak`](https://github.com/espeak-ng/espeak-ng) synthesizer
