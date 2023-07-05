@@ -95,13 +95,3 @@ python engine-TTSVoiceWizard.py
 ```
 Note you will have to have this script running background whenever you wanna use the glados voice. 
 **Becareful sharing screen for help, when the script is successfully run it will show your ip address with the port being used**
-
-## Troubleshooting
-
-If you receive this error during installing the requirements
-![image](https://github.com/VRCWizard/glados-tts-voice-wizard/assets/101527472/29fe0039-d099-4f4f-aa7e-1b24652598fd)
-If you get this error or a similar error during
-![image](https://github.com/VRCWizard/glados-tts-voice-wizard/assets/101527472/97a3e1be-48f4-4e29-ab93-11fd6449c567)
-try ```pip install pydantic==1.10.11```
-
-
