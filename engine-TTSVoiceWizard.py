@@ -7,7 +7,16 @@ from utils.tools import prepare_text
 from scipy.io.wavfile import write
 import time
 import base64
-		
+
+if sys.platform == "win32":
+	# Get colors working on Windows sooner
+	os.system('color')
+	if 'PHONEMIZER_ESPEAK_LIBRARY' not in os.environ or 'PHONEMIZER_ESPEAK_PATH' not in os.environ:
+		espeak_base = r"C:\Program Files\eSpeak NG"
+		os.environ['PHONEMIZER_ESPEAK_LIBRARY'] = os.path.join(espeak_base, 'libespeak-ng.dll')
+		os.environ['PHONEMIZER_ESPEAK_PATH'] = os.path.join(espeak_base, 'espeak-ng.exe')
+		print("\033[1;94mINFO:\033[;97m Guessing eSpeak path..." + espeak_base, flush=True)
+
 print("\033[1;94mINFO:\033[;97m Initializing TTS Engine...")
 
 # Select the device
@@ -17,6 +26,7 @@ if torch.cuda.is_available():
 	device = 'cuda'
 else:
 	device = 'cpu'
+print("\033[1;94mINFO:\033[;97m Torch (" + torch.__version__ + ") will be using " + device, flush=True)
 
 # Load models
 if __name__ == "__main__":
@@ -87,6 +97,7 @@ if __name__ == "__main__":
 		if(text == ''): return 'No input'
 		
 		line = urllib.parse.unquote(request.url[request.url.find('synthesize/')+11:])
+		if(line == ''): return 'No input'
 		filename = "GLaDOS-tts-"+line.replace(" ", "-")
 		filename = filename.replace("!", "")
 		filename = filename.replace("°c", "degrees celcius")
