@@ -93,5 +93,5 @@ cd C:\Users\<NAME>\Downloads\glados-tts-voice-wizard-main\glados-tts-voice-wizar
 ```console
 python engine-TTSVoiceWizard.py
 ```
-Note you will have to have this script running background whenever you wanna use the glados voice. 
+Note you will have to have this script running in the background whenever you wanna use the glados voice. 
 **Becareful sharing screen for help, when the script is successfully run it will show your ip address with the port being used**
