@@ -95,3 +95,6 @@ python engine-TTSVoiceWizard.py
 ```
 Note you will have to have this script running in the background whenever you wanna use the glados voice. 
 **Becareful sharing screen for help, when the script is successfully run it will show your ip address with the port being used**
+
+## Troubleshooting
+- If you get an import error for something related to pydantics do ``pip install pydantic==1.10.11``
