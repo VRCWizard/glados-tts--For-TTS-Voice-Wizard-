@@ -32,7 +32,7 @@ If you want to install the TTS Engine on your machine, please follow the steps
 below.
 
 1. Install [`python 3.7.9`](https://www.python.org/downloads/release/python-379/).
-   If you have to deal with multiple versions of python then you may find [`pyenv-win`](https://pypi.org/project/pyenv-win/) extremely helpful
+   If you have to deal with multiple versions of python then you may find [`pyenv-win`](https://pypi.org/project/pyenv-win/) extremely helpful. For Torch/Cuda support refer [here](https://pytorch.org/get-started/locally/#windows-python) for supported versions of python 3.9 is confirmed to work
    
       - [pyenv quickstart guide](https://github.com/pyenv-win/pyenv-win#quick-start)
       
